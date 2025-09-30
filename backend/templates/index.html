@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+    <head><title>My Basic Webpage</title></head>
+        <body>
+            <h1>Basic web template</h1>
+            <form method="POST">
+                <textarea name="text1" rows="5" placeholder="Enter prompt here" required>{{text1}}</textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+            {%if chatresponse %}
+                <h2>Response: {{chatresponse}}</h2>
+            {% endif %}
+        </body>
+</html>
