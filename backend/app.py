@@ -4,11 +4,12 @@ from openai import AzureOpenAI
 
 app = Flask(__name__)
 
-endpoint = "https://ngaifpoc.cognitiveservices.azure.com/"
+endpoint = "https://venka-mdof0Fqm-northcentralus.cognitiveservices.azure.com/"
 ##model_name = "gpt-4.1"
-deployment = "gpt-4.1"
-subscription_key = "Dr1tvfmZw9h5ponz3QBIRnYtmj8YhNsgDAoEhmrSn1d7PbbzmCYMJQQJ99BGACmepeSXJ3w3AAAAACOGOb0I"
-api_version = "2024-12-01-preview"
+deployment = "gpt-4o-mini"
+subscription_key = "3CXKHVaK01iK8EF0PJplfddIoVAn0fJUF28lRq4FulGH0LSQCbTjJQQJ99BGACHrzpqXJ3w3AAAAACOGj6WK"
+api_version = "2025-01-01-preview"
+
 
 client = AzureOpenAI(
         api_version=api_version,
