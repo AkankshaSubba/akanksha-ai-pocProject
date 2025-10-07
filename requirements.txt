@@ -93,3 +93,5 @@ urllib3==2.5.0
 uvicorn==0.35.0
 xlsxwriter==3.2.5
 zstandard==0.23.0
+Flask==3.1.0
+gunicorn
